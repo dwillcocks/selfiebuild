@@ -1,7 +1,7 @@
 baseURL: https://www.selfiebuild.com/
 languageCode: en-us
 title: SelfieBuild
-theme: hugo-refresh
+theme: refresh
 # theme: ../..
 
 #########################################
