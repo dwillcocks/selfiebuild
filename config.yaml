@@ -126,7 +126,7 @@ params:
     # option to specify your linkedin profile in the footer
     youTube: 
       link: channel/UCXJ9B1-LxqCfxuhjh2NOepw
-      title: YouTube Channel
+      title: YouTube
     # option to specify your facebook account in the footer; 
     # **uncomment** the lines below to show in footer
     # facebook: 
