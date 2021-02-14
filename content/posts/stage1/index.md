@@ -5,7 +5,7 @@ draft: false
 hideLastModified: true
 summary: "The summary image should be a custom one"
 summaryImage: "summary.jpg"
-tags: ["custom_image", "custom_summary"]
+tags: ["stage1", "pre-build"]
 ---
 
 This is the real text of the article. 

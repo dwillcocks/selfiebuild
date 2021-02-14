@@ -1,6 +1,6 @@
 baseURL: https://www.selfiebuild.com/
 languageCode: en-us
-title: Selfie Build
+title: SelfieBuild
 theme: hugo-refresh
 # theme: ../..
 
@@ -69,7 +69,7 @@ params:
   # main pages options
   mainPage:
     # option to specify the main font of the theme
-    fontFamily: "Open Sans" 
+    fontFamily: "Playball" 
 
   # sidebar options
   sidebar:
@@ -120,13 +120,13 @@ params:
     # the starting folder is configure in "assetDir" of this file
     logo: "/images/refresh-square.svg"
     # option to specify your contact email in the footer
-    email: 
-      link: name.surname@domain.com
-      title: My Email
+    #email: 
+    #  link: name.surname@domain.com
+    #  title: My Email
     # option to specify your linkedin profile in the footer
-    linkedin: 
-      link: your_linkedin_profile
-      title: My LinkedIn
+    youTube: 
+      link: channel/UCXJ9B1-LxqCfxuhjh2NOepw
+      title: YouTube Channel
     # option to specify your facebook account in the footer; 
     # **uncomment** the lines below to show in footer
     # facebook: 
