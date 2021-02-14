@@ -1,4 +1,4 @@
-baseURL: https://dwillcocks.github.io/selfiebuild/
+baseURL: selfiebuild.com
 languageCode: en-us
 title: Selfie Build
 theme: hugo-refresh
