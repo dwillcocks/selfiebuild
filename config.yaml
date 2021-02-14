@@ -90,7 +90,7 @@ params:
   pagNotFound:
     # option to specify the main picture of the sidebar
     # the starting folder is configure in "assetDir" of this file
-    image: "/images/annette.png"
+    image: "/images/annette_404.png"
     # option to specify the title of the 404 page
     title: 404 Page Not Found :(
     # option to specify the subtitle of the 404 page
@@ -112,7 +112,7 @@ params:
     # option to specify image in the homepage
     image: "/images/annette.png" # worker.svg 
     # option to specify the width of the image in the homepage
-    imageWidth: 600px
+    imageWidth: 500px
 
   # footer options
   footer:
