@@ -5,7 +5,7 @@ theme: refresh
 
 assetDir: "static"
 DefaultContentLanguage: en
-disableKinds: ["sitemap","RSS"]
+disableKinds: ["RSS"]
 
 # Option to specify that all links will be open in a new tab.
 blackfriday:
@@ -14,19 +14,10 @@ blackfriday:
 Taxonomies:
   tag: "tags"
 
-# Supported fonts are:
-# https://fonts.google.com/
-
-# Icons taken from:
-# https://konpa.github.io/devicon/
-# https://bulkitv2.cssninja.io/_components-icons-fa.html
-
 params:
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
   articlesPerRow: 3 
 
-  # option to specify the favicon image of the site
-  # the path is relative to the folder "assetDir" of this configuration
   favicon: "/images/favicon.svg"
 
   # parameter used to specify if you want to minify the imported js
@@ -40,51 +31,31 @@ params:
   # option to specify the main colour of the theme
   mainColour: "#EB01A5"
 
-  # summary options
   summary:
     # option to specify the default image in the summary list
-    # the starting folder is configure in "assetDir" of this file
     defaultImage : "/images/default_summary.jpg"
   
-  # loading options
   loading:
     # option to specify the loading image
-    # the starting folder is configure in "assetDir" of this file
     image: "/images/loaders/hearts.svg"
 
-  # main pages options
   mainPage:
-    # option to specify the main font of the theme
     fontFamily: "Playball" 
 
-  # sidebar options
   sidebar:
-    # option to specify the logo of the sidebar
-    # the starting folder is configure in "assetDir" of this file
     logo: "/images/logo.svg"
-    # option to specify the font of the sidebar
     fontFamily: "Open Sans" # "Open Sans"
 
-  # navbar options
   navbar:
-    # option to specify the font used in the navbar
     fontFamily: "Open Sans"
-    # option to show the little logos on the side of the navbar items
     showIcons: false
     
-  # 404 page options
   pagNotFound:
-    # option to specify the main picture of the sidebar
-    # the starting folder is configure in "assetDir" of this file
     image: "/images/annette_404.png"
-    # option to specify the title of the 404 page
     title: 404 Page Not Found :(
-    # option to specify the subtitle of the 404 page
     subtitle: This is not the page you were looking for...
-    # option to specify the width of the image in the 404 page
     imageWidth: 500px
 
-  # homepage options
   homepage:
     # this options let you specify if you want a link to the homepage
     # it can be: "none", "menu", "footer" or "menu+footer"
@@ -94,45 +65,34 @@ params:
     # option to specify the title in the homepage
     title: SelfieBuild
     # option to specify the subtitle in the homepage
-    subtitle: Follow us, as we self build our family home
+    subtitle: Follow our Journey from DIY enthusiasts to Self Builders. We will document ideas, planning, tips, products and the many things to remember when building your own home from the plans, the highs and lows along the way to the finished dream.
     # option to specify image in the homepage
     image: "/images/annette.png" # worker.svg 
     # option to specify the width of the image in the homepage
     imageWidth: 500px
 
-  # footer options
   footer:
-    # option to specify the logo in the footer
-    # the starting folder is configure in "assetDir" of this file
     logo: "/images/logo.svg"
-    # option to specify your contact email in the footer
     #email: 
     #  link: name.surname@domain.com
     #  title: My Email
-    # option to specify your youtube channel in the footer
     youTube: 
       link: channel/UCXJ9B1-LxqCfxuhjh2NOepw
       title: YouTube
-    # option to specify your facebook account in the footer; 
-    # **uncomment** the lines below to show in footer
     # facebook: 
     #   link: your.username
     #   title: Facebook
-    # option to specify your github account in the footer; 
-    # **uncomment** the below lines to show in footer
     # github: 
     #   link: username
     #   title: Github
-    # option to specify your twitter username in the footer; 
-    # **uncomment** the below lines to show in footer
     # twitter: 
     #    link: username
     #    title: Twitter
-    # option to specify your instagram username in the footer; 
-    # **uncomment** the below lines to show in footer
     # instagram: 
     #    link: username
     #    title: Instagram
-    # option to specify the copyright in the footer
-    copyright: Selfie Build - 2021
+    copyright: SelfieBuild - 2021
+    legal: Opinions are my own. Nothing on this Site constitutes professional and/or financial advice. May contain affiliate links.
+
+ 
 

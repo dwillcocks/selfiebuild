@@ -18,7 +18,7 @@
     <div class="column">
         <div class="footer-column">
           <div class="footer-header">
-              <h3>{{ i18n "website" }}</h3>
+              <h3>Navigation</h3>
           </div>
           <ul class="link-list">
             {{- if or (eq $home "footer") (eq $home "menu+footer") -}}
@@ -33,21 +33,26 @@
             </li>
             {{- end -}}
             <li>
-                {{- with .Site.GetPage "/credits/index" -}}
-                <a href="{{- .RelPermalink -}}">
-                  <span class="icon"><i class="fa fa-cube"></i></span>
-                  {{ i18n "credits" }}
-                </a>
-                {{- end -}}
-              </li>
-            <li>
               {{- with .Site.GetPage "tags" -}}
               <a href="{{- .RelPermalink -}}">
                 <span class="icon"><i class="fa fa-tag"></i></span> 
-                {{ i18n "allTags" }}
+                Tags
               </a>
               {{- end -}}
             </li>
+
+	    {{ range .Site.RegularPages }}
+          {{- if eq .Params.showInMenu true -}}
+	  <li>
+          <a href="{{- .Permalink | relURL -}}">
+                <span class="icon"><i class="fa fa-link"></i></span> 
+            {{ .Title }}
+          </a>
+	  </li>
+          {{- end -}}
+        {{- end -}}
+
+
           </ul>
         </div>
       </div>
@@ -56,7 +61,7 @@
       <div class="column">
         <div class="footer-column">
           <div class="footer-header">
-              <h3>{{ i18n "contacts" }}</h3>
+              <h3>Social</h3>
           </div>
           <ul class="link-list">
             {{ if isset .Site.Params.footer.youtube "link" }}
@@ -140,15 +145,19 @@
       <div class="column">
         <div class="footer-column">
           <div class="footer-header">
-              <h3>{{ i18n "copyright" }}</h3>
+            <h3>Legal</h3>
           </div>
           <ul class="link-list">
             <li>
-              <a>
-                <span class="icon"><i class="fa fa-copyright"></i></span>
-                {{ .Site.Params.footer.copyright }}
-              </a>
+              <span class="icon"><i class="fa fa-copyright"></i></span>
+              {{ .Site.Params.footer.copyright }}
             </li>
+	    {{ if isset .Site.Params.footer "legal" }}
+            <li>
+              <span class="icon"><i class="fa fa-edit"></i></span>
+	      {{ .Site.Params.footer.legal }}
+            </li>
+            {{ end }}       
           </ul>
         </div>
       </div>

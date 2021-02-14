@@ -22,14 +22,14 @@ footer.footer-dark {
             margin-bottom: 20px;
         }
         ul.link-list {
-            line-height: 40px;
             font-size: 1.1rem;
+            color: $light-blue-grey;
             a {
                 color: $light-blue-grey;
                 font-weight: 400;
                 transition: all 0.5s;
             }
-            :hover {
+            a:hover {
                 color: $smoke-white;
             }
         }
