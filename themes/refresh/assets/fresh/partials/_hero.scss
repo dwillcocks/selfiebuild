@@ -5,16 +5,14 @@ Hero styles
 .hero-body {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    .title, .subtitle {
-        font-family: $fontMainPage, serif; //Press Start 2P
-        // font-family: 'Open Sans', sans-serif; 
-    }
     .title {
+        font-family: $fontMainPage, serif;
         &.is-bold {
             font-weight: 700;
         }
     }
     .subtitle {
+        font-family: "Open Sans", serif;
         &.is-muted {
             color: $muted-grey;
         }
