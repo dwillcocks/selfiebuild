@@ -2,6 +2,7 @@ baseURL: https://www.selfiebuild.com/
 languageCode: en-us
 title: SelfieBuild
 theme: refresh
+GoogleAnalytic: G-X5RLE40EDT
 
 assetDir: "static"
 DefaultContentLanguage: en
@@ -20,15 +21,11 @@ params:
 
   favicon: "/images/favicon.svg"
 
-  # parameter used to specify if you want to minify the imported js
   jsMinify: false
-  # parameter used to specify if you want to minify the imported css
   cssMinify: false
-  # parameter used to specify if you want to calculate the css integrity
   cssIntegrity: true
-  # parameter used to specify if you want to calculate the js integrity
   jsIntegrity: true
-  # option to specify the main colour of the theme
+
   mainColour: "#EB01A5"
 
   summary:
@@ -82,9 +79,6 @@ params:
     # facebook: 
     #   link: your.username
     #   title: Facebook
-    # github: 
-    #   link: username
-    #   title: Github
     # twitter: 
     #    link: username
     #    title: Twitter
