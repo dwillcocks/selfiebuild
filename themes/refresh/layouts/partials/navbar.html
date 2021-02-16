@@ -15,14 +15,14 @@
           <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
         </div>
         <div class="navbar-item left-menu-icon-wrapper">
-          {{ i18n "tags" }}
+          tags
         </div>
       </a>
 
       <div class="navbar-item is-expanded"></div>
       <a class="navbar-item is-hidden-desktop">  
         <div data-target="navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">
-          {{ i18n "mainMenu" }}
+          mainMenu
         </div>
         <div data-target="navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
           <svg width="1000px" height="1000px">
@@ -53,7 +53,7 @@
             {{- if .Site.Params.homepage.linkText -}}
               {{- print .Site.Params.homepage.linkText -}}
             {{- else -}}
-              {{ i18n "homepage" }}
+              homepage
             {{- end -}}
           </a>
         {{- end -}}
